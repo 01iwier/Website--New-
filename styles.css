@@ -21,6 +21,11 @@ h1 {
 h3 {
     margin: 10px;
     white-space: nowrap;
+    transition: all 0.4s ease-in-out;
+}
+
+h3:hover {
+    transform: scale(1.1);
 }
 
 .container {
@@ -52,6 +57,11 @@ h3 {
     width: 40px;
     height: 40px;
     filter: invert(45%) sepia(100%) saturate(600%) hue-rotate(199deg) brightness(95%) contrast(100%);
+    transition: all 0.3s ease-in-out;
+}
+
+.icon:hover {
+    transform: scale(1.15);
 }
 
 .logo {
